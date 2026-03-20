@@ -1,0 +1,1 @@
+# Documento-de-Operador-L-gico-da-Corpora-o
