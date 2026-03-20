@@ -1,1 +1,1 @@
-# Documento-de-Operador-L-gico-da-Corpora-o
+# Documento-de-Operador-Logico-da-Corporacao
