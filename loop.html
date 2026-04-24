@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping</title>
+</head>
+<body>
+    <script>
+        int main()
+{
+    
+    int opc, num1, num2;
+    while(opc!=0){
+        printf("1-soma\n2-multiplicação\n3-subtração\n5-divisão\n0-sair");
+        scanf("%d", &opc);
+        printf("Digite o primeiro número:");
+        scanf("%d", &num1);
+        printf("Digite o segundo número:");
+        scanf("%d", &num2);
+    }
+    
+    if(opc==1){
+        printf("%d + %d = %d", num1, num2, num1 + num2);
+    }
+    
+    else if(opc==2){
+        printf("%d x %d = %d", num1, num2, num1 * num2);
+    }
+    
+    else if(opc==3){
+        printf("%d - %d = %d", num1, num2, num1 - num2);
+    }
+    
+    else if(opc==4){
+        printf("%d : %d = %d", num1, num2, num1 / num2);
+    }
+    
+    else if(opc==0){
+        printf("Você saiu!");
+    }
+}
+    </script>
+</body>
+</html>
